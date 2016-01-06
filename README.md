@@ -16,7 +16,8 @@ Others have tried to solve this problem.  On newer versions of iOS for example, 
 
 ### Persona
 
-Coming soon!
+![alt text](https://github.com/rishigoel/2Pay/blob/master/Sketched%20Persona%20Pic.png)
 
+### Coming soon:
 
-
+Concept sketches and solution
