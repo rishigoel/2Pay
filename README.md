@@ -18,6 +18,20 @@ Others have tried to solve this problem.  On newer versions of iOS for example, 
 
 ![alt text](https://github.com/rishigoel/2Pay/blob/master/Sketched%20Persona%20Pic.png)
 
+### Concept Sketches
+
+##### Option 1
+
+![alt text](https://github.com/rishigoel/2Pay/blob/master/Lo-fi%20Option%201.JPG)
+
+##### Option 2
+
+![alt text](https://github.com/rishigoel/2Pay/blob/master/Lo-fi%20Option%202.JPG)
+
+Above are two concepts I have for this problem.  The first is similar to the current process.  For the shipping information, the user starts typing in their address.  The backend would then try to autofill the necessary information.  As for the billing information, the user would have to type in their credit card number.  For the second option, I decided to get a bit more creative.  Rather than type in any information, the user would simply press two icons.  The first would scan their drivers license and then pull out the necessary shipping information.  The second would scan their credit card, using Card.Io, an open source library I've used before.  It can pull out the necessary billing information.  I think I'm going to go with option two, as it has the potential to simplify the process.  Plus, it will be fun to actually make.
+
+
+
 ### Coming soon:
 
-Concept sketches and solution
+Hi-fidelity screens and solution
