@@ -14,7 +14,7 @@ How can we simplify the mobile shopping process?
 
 Others have tried to solve this problem.  On newer versions of iOS for example, the user can save their credit card information on their phone.  Sites light AO.com, Crate and Barrel, and Topshop have used design elements such as big buttons and progress bars to create a better experience.  AO.com also allows the user to type in their postal code, and the site determines their address for them.  Reiss uses a real-time address finder.  Finally, Card.Io, now a subsidiary of PayPal, created a library to gather the user's payment information by scanning their credit card.  
 
-### Persona
+### Persona - Kyle Dejong
 
 ![alt text](https://github.com/rishigoel/2Pay/blob/master/Sketched%20Persona%20Pic.png)
 
