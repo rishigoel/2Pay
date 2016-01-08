@@ -32,7 +32,7 @@ Above are two concepts I have for this problem.  The first is similar to the cur
 
 ### Mockups
 
-So, I decided to go with a variation of option 2.  Basically, in order for the user to enter in their billing and shipping information, all they have to do is scan their driver's license and credit card.  However, I changed it up a bit, as I separated the one screen drawn above into 5 screens, so that I could avoid confusion amongst the users.  My solution will also allow the user to review their information before proceeding to the next step and eventually purchasing their products.  The screens are displayed in their natural order below.  
+So, I decided to go with a variation of option 2.  Basically, in order for the user to enter in their billing and shipping information, all they have to do is scan their driver's license and credit card.  However, I changed it up a bit, as I separated the one screen drawn above into 5 screens, so that I could avoid confusion amongst the users.  My solution will also allow the user to review their information before proceeding to the next step and eventually purchasing their products.  The screens are displayed in their natural order below.  I chose to design both icons used on the screen, in order to keep my skills sharp.
 
 ![alt text](https://github.com/rishigoel/2Pay/blob/master/Mockups/Shipping_iphone6plus_gold_portrait.png) 
 ![alt text](https://github.com/rishigoel/2Pay/blob/master/Mockups/Shipping%20Confirm_iphone6plus_gold_portrait.png) 
