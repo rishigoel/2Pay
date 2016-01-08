@@ -12,7 +12,7 @@ How can we simplify the mobile shopping process?
 
 ### Competitive Landscape
 
-Others have tried to solve this problem.  On newer versions of iOS for example, the user can save their credit card information on their phone.  Sites like AO.com, Crate and Barrel, and Topshop have used design elements such as big buttons and progress bars to create a better experience.  AO.com also allows the user to type in their postal code, and the site determines their address for them.  Reiss uses a real-time address finder.  Finally, Card.Io, now a subsidiary of PayPal, created a library to gather the user's payment information by scanning their credit card.  
+Others have tried to solve this problem.  On newer versions of iOS for example, the user can save their credit card information on their phone.  Sites like AO.com, Crate and Barrel, and Topshop have used design elements such as big buttons and progress bars to create a better experience.  AO.com also allows the user to type in their postal code, and the site determines their address for them.  Reiss, another company trying to enhance this experience, uses a real-time address finder.  Finally, Card.Io, now a subsidiary of PayPal, created a library to gather the user's payment information by scanning their credit card.  
 
 ### Persona - Kyle Dejong
 
@@ -28,13 +28,17 @@ Others have tried to solve this problem.  On newer versions of iOS for example, 
 
 ![alt text](https://github.com/rishigoel/2Pay/blob/master/Lo-fi%20Option%202%20Wireframe.JPG)
 
-Above are two concepts I have for this problem.  The first is similar to the current process.  For the shipping information, the user starts typing in their address.  The backend would then try to autofill the necessary information.  As for the billing information, the user would have to type in their credit card number.  For the second option, I decided to get a bit more creative.  Rather than type in any information, the user would simply press two icons.  The first would scan their drivers license and then pull out the necessary shipping information.  The second would scan their credit card, using Card.Io, an open source library I've used before.  It can pull out the necessary billing information.
+Above are two concepts I have for this problem.  The first is similar to the current process.  For the shipping information, the user starts typing in their address.  The backend would then try to autofill the necessary information.  As for the billing information, the user would have to type in their credit card number.  For the second option, I decided to get a bit more creative.  Rather than type in any information, the user would simply press two icons.  The first would scan their drivers license and then pull out the necessary shipping information.  The second would scan their credit card, using Card.Io, an open source library I've played around with.  It is capable of pulling out the necessary billing information.
 
 ### Mockups
 
 So, I decided to go with a variation of option 2.  Basically, in order for the user to enter in their billing and shipping information, all they have to do is scan their driver's license and credit card.  However, I changed it up a bit, as I separated the one screen drawn above into 5 screens, so that I could avoid confusion amongst the users.  My solution will also allow the user to review their information before proceeding to the next step and eventually purchasing their products.  The screens are displayed in their natural order below.  
 
-![alt text](https://github.com/rishigoel/2Pay/blob/master/Mockups/Shipping_iphone6plus_gold_portrait.png) ![alt text](https://github.com/rishigoel/2Pay/blob/master/Mockups/Shipping%20Confirm_iphone6plus_gold_portrait.png) ![alt text](https://github.com/rishigoel/2Pay/blob/master/Mockups/Billing_iphone6plus_gold_portrait.png) ![alt text](https://github.com/rishigoel/2Pay/blob/master/Mockups/Billing%20Confirm_iphone6plus_gold_portrait.png) ![alt text](https://github.com/rishigoel/2Pay/blob/master/Mockups/Review_iphone6plus_gold_portrait.png)
+![alt text](https://github.com/rishigoel/2Pay/blob/master/Mockups/Shipping_iphone6plus_gold_portrait.png) 
+![alt text](https://github.com/rishigoel/2Pay/blob/master/Mockups/Shipping%20Confirm_iphone6plus_gold_portrait.png) 
+![alt text](https://github.com/rishigoel/2Pay/blob/master/Mockups/Billing_iphone6plus_gold_portrait.png) 
+![alt text](https://github.com/rishigoel/2Pay/blob/master/Mockups/Billing%20Confirm_iphone6plus_gold_portrait.png) 
+![alt text](https://github.com/rishigoel/2Pay/blob/master/Mockups/Review_iphone6plus_gold_portrait.png)
 
 
 
