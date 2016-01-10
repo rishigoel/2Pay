@@ -1,0 +1,18 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target '2Pay' do
+pod 'CardIO'
+
+end
+
+target '2PayTests' do
+
+end
+
+target '2PayUITests' do
+
+end
+

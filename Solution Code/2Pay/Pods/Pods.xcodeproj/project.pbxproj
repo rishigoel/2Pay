@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F71648031F34C2046227D101287EF2B /* Pods-2Pay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6457D70C574E966D5928573275C814E9 /* Pods-2Pay-dummy.m */; };
+		2D879005CE6EBA93B15AA52D0918B021 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11AE0B4C7724B90B0D603AAFB8CB84DB /* CardIOUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOUtilities.h; path = CardIO/CardIOUtilities.h; sourceTree = "<group>"; };
+		25A40F49CDADA497CAA34D9FA3BCC974 /* Pods-2Pay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-2Pay-acknowledgements.plist"; sourceTree = "<group>"; };
+		30A7B82330C2AAB35278835122ED9941 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewControllerDelegate.h; path = CardIO/CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		368315AE63B0110F7D114F32DDF4F0DB /* Pods-2Pay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-2Pay.debug.xcconfig"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		496D82B2BB23C1E429D866D6647F43CD /* libCardIO.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardIO.a; path = CardIO/libCardIO.a; sourceTree = "<group>"; };
+		535CF83004DE6348F9626A8E8CCAA033 /* Pods-2Pay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-2Pay-frameworks.sh"; sourceTree = "<group>"; };
+		560E10D0FB444A4140CD037C94A2DE42 /* Pods-2Pay-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-2Pay-resources.sh"; sourceTree = "<group>"; };
+		5E8E890DC6DE4DEE28CD442CED8C24B5 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOViewDelegate.h; path = CardIO/CardIOViewDelegate.h; sourceTree = "<group>"; };
+		60B70D08C7ED3BA23E7664B8AF65BC8D /* CardIODetectionMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIODetectionMode.h; path = CardIO/CardIODetectionMode.h; sourceTree = "<group>"; };
+		62C891D9198AC3EE94C934A6AC34A872 /* Pods-2Pay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-2Pay-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6457D70C574E966D5928573275C814E9 /* Pods-2Pay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-2Pay-dummy.m"; sourceTree = "<group>"; };
+		8B92F6D2C23F1E052D94682098BDB33C /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOCreditCardInfo.h; path = CardIO/CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		904AF5D8302F9AD9A30377F78CFC8A53 /* CardIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIO.h; path = CardIO/CardIO.h; sourceTree = "<group>"; };
+		9CF7F65EAA50A0E707598E39FADBE482 /* libPods-2Pay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-2Pay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAC2980631ECE7BF530016C12B3D152 /* CardIOView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOView.h; path = CardIO/CardIOView.h; sourceTree = "<group>"; };
+		B7559D21122FE196156FA0B179736E02 /* libopencv_core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopencv_core.a; path = CardIO/libopencv_core.a; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEFD3041F9B57CF78052C3B31C302569 /* Pods-2Pay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-2Pay.release.xcconfig"; sourceTree = "<group>"; };
+		C5F8D7754087E2B3D6B2607632C59D67 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewController.h; path = CardIO/CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		FF854235BD0D6C102BF203996A85741E /* libopencv_imgproc.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = CardIO/libopencv_imgproc.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23578D0CC44BC88CF70C075ED0C1F66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D879005CE6EBA93B15AA52D0918B021 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EA291C328BF29D1B7EAB99C981137FF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99894CBA2A7417532A6EA2286467AF0D /* Pods-2Pay */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6542E9B6A5F7E492302300DDC3A9FC16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A01D70A416C22516D7FC33D31F7E4 /* CardIO */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6542E9B6A5F7E492302300DDC3A9FC16 /* Pods */,
+				83664204F9FDD1319F80AEC62D1F4766 /* Products */,
+				5EA291C328BF29D1B7EAB99C981137FF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83664204F9FDD1319F80AEC62D1F4766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CF7F65EAA50A0E707598E39FADBE482 /* libPods-2Pay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8399B9B943B4EFBFEBFB45720B39D3D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				496D82B2BB23C1E429D866D6647F43CD /* libCardIO.a */,
+				B7559D21122FE196156FA0B179736E02 /* libopencv_core.a */,
+				FF854235BD0D6C102BF203996A85741E /* libopencv_imgproc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A1A01D70A416C22516D7FC33D31F7E4 /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				904AF5D8302F9AD9A30377F78CFC8A53 /* CardIO.h */,
+				8B92F6D2C23F1E052D94682098BDB33C /* CardIOCreditCardInfo.h */,
+				60B70D08C7ED3BA23E7664B8AF65BC8D /* CardIODetectionMode.h */,
+				C5F8D7754087E2B3D6B2607632C59D67 /* CardIOPaymentViewController.h */,
+				30A7B82330C2AAB35278835122ED9941 /* CardIOPaymentViewControllerDelegate.h */,
+				11AE0B4C7724B90B0D603AAFB8CB84DB /* CardIOUtilities.h */,
+				ACAC2980631ECE7BF530016C12B3D152 /* CardIOView.h */,
+				5E8E890DC6DE4DEE28CD442CED8C24B5 /* CardIOViewDelegate.h */,
+				8399B9B943B4EFBFEBFB45720B39D3D3 /* Frameworks */,
+			);
+			path = CardIO;
+			sourceTree = "<group>";
+		};
+		99894CBA2A7417532A6EA2286467AF0D /* Pods-2Pay */ = {
+			isa = PBXGroup;
+			children = (
+				62C891D9198AC3EE94C934A6AC34A872 /* Pods-2Pay-acknowledgements.markdown */,
+				25A40F49CDADA497CAA34D9FA3BCC974 /* Pods-2Pay-acknowledgements.plist */,
+				6457D70C574E966D5928573275C814E9 /* Pods-2Pay-dummy.m */,
+				535CF83004DE6348F9626A8E8CCAA033 /* Pods-2Pay-frameworks.sh */,
+				560E10D0FB444A4140CD037C94A2DE42 /* Pods-2Pay-resources.sh */,
+				368315AE63B0110F7D114F32DDF4F0DB /* Pods-2Pay.debug.xcconfig */,
+				BEFD3041F9B57CF78052C3B31C302569 /* Pods-2Pay.release.xcconfig */,
+			);
+			name = "Pods-2Pay";
+			path = "Target Support Files/Pods-2Pay";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00762E29A0C71D2CE172F795DCF8C068 /* Pods-2Pay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E547101EE1FB861AF9E38B7246A9A2 /* Build configuration list for PBXNativeTarget "Pods-2Pay" */;
+			buildPhases = (
+				81F3F2B117A0773F714E4F0D4BAAC2AF /* Sources */,
+				23578D0CC44BC88CF70C075ED0C1F66D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-2Pay";
+			productName = "Pods-2Pay";
+			productReference = 9CF7F65EAA50A0E707598E39FADBE482 /* libPods-2Pay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 83664204F9FDD1319F80AEC62D1F4766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00762E29A0C71D2CE172F795DCF8C068 /* Pods-2Pay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81F3F2B117A0773F714E4F0D4BAAC2AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F71648031F34C2046227D101287EF2B /* Pods-2Pay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6C68993ACFF75B5E78D9DCFCE8A6FB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368315AE63B0110F7D114F32DDF4F0DB /* Pods-2Pay.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF92E8DF8FDA5BDB25299AB260137B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFD3041F9B57CF78052C3B31C302569 /* Pods-2Pay.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E547101EE1FB861AF9E38B7246A9A2 /* Build configuration list for PBXNativeTarget "Pods-2Pay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C68993ACFF75B5E78D9DCFCE8A6FB38 /* Debug */,
+				AF92E8DF8FDA5BDB25299AB260137B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
