@@ -42,6 +42,13 @@ So, I decided to go with a variation of option 2.  Basically, in order for the u
 
 
 
-### Coming soon:
+### Solution and Usability Testing:
 
-Solution
+The prototype is finished.  I was able to follow the screens almost to a tee, and both scanning functionalities work.  I am able to pull the shipping information from the driver's license by using AVFoundation to scan the barcode.  It's actually pretty cool what info the license contains - basically everything you see on the front.  As for the card, I used CardIO to get the billing information.  
+
+Once completed, I performed some usability testing amongst my friends.  Ideally, I would conduct the testing with someone who fits my persona, but I'm at school, so I have to use what is available to me.  One key takeaway was scanning the driver's license all depended on the lighting conditions.  If the lighting was poor, it would not scan.  Some users were unaware of this, and got frustrated.  However, for those whom the scanning did work, they all noted how much faster my prototype was than the conventional method.  They all were intrigued by the technology and said they would like to see this adopted by companies with an online presence.
+
+
+### Next Steps
+
+Based on the usability testing, I would add in another screen that explains the driver's license scanning process.  These instructions would include: the proper orientation, the adequate amount of light, and a frame for the license.  This screen would hopefully reduce the potential frustration for the user, as they would be aware of what is going on.  At the moment, when the card is scanning, there is no information provided to the user.  This needs to be changed, so that they are kept in the loop.   
