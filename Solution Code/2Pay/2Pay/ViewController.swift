@@ -12,6 +12,7 @@ class ViewController: UIViewController, CardIOPaymentViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Background.png")!)
         CardIOUtilities.preload()
         
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,7 +23,9 @@ class ViewController: UIViewController, CardIOPaymentViewControllerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var cardImage: UIButton!
     
+    @IBOutlet weak var lbl1: UILabel!
     @IBAction func scanCard(sender: AnyObject) {
         
         let cardIOVC = CardIOPaymentViewController(paymentDelegate: self)
@@ -30,6 +33,7 @@ class ViewController: UIViewController, CardIOPaymentViewControllerDelegate {
         cardIOVC.hideCardIOLogo = true
         presentViewController(cardIOVC, animated: true, completion: nil)
     }
+    @IBOutlet weak var lbl2: UILabel!
     func userDidCancelPaymentViewController(paymentViewController: CardIOPaymentViewController!) {
         paymentViewController?.dismissViewControllerAnimated(true, completion: nil)
     }
@@ -37,8 +41,10 @@ class ViewController: UIViewController, CardIOPaymentViewControllerDelegate {
     func userDidProvideCreditCardInfo(cardInfo: CardIOCreditCardInfo!, inPaymentViewController paymentViewController: CardIOPaymentViewController!) {
         
         if let info = cardInfo {
-            let str = NSString(format: "Received card info.\n Number: %@\n expiry: %02lu/%lu\n cvv: %@.", info.redactedCardNumber, info.expiryMonth, info.expiryYear, info.cvv)
-            print(str as String)
+            lbl1.text = info.redactedCardNumber
+            lbl2.text = info.cvv
+            
+            
         }
         paymentViewController?.dismissViewControllerAnimated(true, completion: nil)
     }

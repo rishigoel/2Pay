@@ -9,9 +9,17 @@
 import AVFoundation
 import UIKit
 
+var fullName:String = "a"
+var address:String = "b"
+var city:String = "c"
+var postal:String = "d"
+var count = 0
+
 class DriveViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     var captureSession: AVCaptureSession!
     var previewLayer: AVCaptureVideoPreviewLayer!
+   
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -105,12 +113,21 @@ class DriveViewController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
         print(street)
         print(prov)
         print(post)
-        print(code)
+        fullName = firstName
+        fullName += " "
+        fullName += lastName
+        address = street.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+        city = prov.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+        postal=post.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+        count = 1
+        let front = FrontViewController()
+        front.change()
         dismissViewControllerAnimated(true, completion: nil)
         
     }
     
     
+    @IBOutlet weak var button: UIButton!
     
     override func prefersStatusBarHidden() -> Bool {
         return true

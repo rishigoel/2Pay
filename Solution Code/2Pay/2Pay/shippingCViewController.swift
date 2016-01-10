@@ -1,5 +1,5 @@
 //
-//  FrontViewController.swift
+//  shippingCViewController.swift
 //  2Pay
 //
 //  Created by Rishi Goel on 2016-01-09.
@@ -8,11 +8,15 @@
 
 import UIKit
 
-class FrontViewController: UIViewController {
+class shippingCViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Background.png")!)
+        nameTxt.text = fullName
+        streetTxt.text = address
+        cityTxt.text = city
+        codeTxt.text = postal
         // Do any additional setup after loading the view.
     }
 
@@ -21,11 +25,11 @@ class FrontViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func change() {
-        
-    }
-    @IBAction func doIt(sender: AnyObject) {
-    }
+    @IBOutlet weak var nameTxt: UITextField!
+    
+    @IBOutlet weak var codeTxt: UITextField!
+    @IBOutlet weak var cityTxt: UITextField!
+    @IBOutlet weak var streetTxt: UITextField!
     /*
     // MARK: - Navigation
 

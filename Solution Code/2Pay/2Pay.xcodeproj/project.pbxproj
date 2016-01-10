@@ -17,6 +17,7 @@
 		FF588C881C41985D00294249 /* _PayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF588C871C41985D00294249 /* _PayUITests.swift */; };
 		FF588C991C41A3DB00294249 /* DriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF588C981C41A3DB00294249 /* DriveViewController.swift */; };
 		FF588C9B1C41D0F000294249 /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF588C9A1C41D0F000294249 /* FrontViewController.swift */; };
+		FF588C9D1C41FEC300294249 /* shippingCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF588C9C1C41FEC300294249 /* shippingCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		FF588C951C419A1700294249 /* Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
 		FF588C981C41A3DB00294249 /* DriveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriveViewController.swift; sourceTree = "<group>"; };
 		FF588C9A1C41D0F000294249 /* FrontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
+		FF588C9C1C41FEC300294249 /* shippingCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shippingCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				FF588C951C419A1700294249 /* Bridging.h */,
 				FF588C981C41A3DB00294249 /* DriveViewController.swift */,
 				FF588C9A1C41D0F000294249 /* FrontViewController.swift */,
+				FF588C9C1C41FEC300294249 /* shippingCViewController.swift */,
 			);
 			path = 2Pay;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF588C9B1C41D0F000294249 /* FrontViewController.swift in Sources */,
+				FF588C9D1C41FEC300294249 /* shippingCViewController.swift in Sources */,
 				FF588C6A1C41985C00294249 /* ViewController.swift in Sources */,
 				FF588C681C41985C00294249 /* AppDelegate.swift in Sources */,
 				FF588C991C41A3DB00294249 /* DriveViewController.swift in Sources */,
